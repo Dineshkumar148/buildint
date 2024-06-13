@@ -115,21 +115,28 @@
     height: 24px;
 }
 
-.search-input {
-    width: 288px;
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
     height: 40px;
-    padding: 15px 0 0 76px;
     background-color: #19223F;
     border-radius: 50px;
     border: transparent;
     font-size: 12px;
     font-weight: 500;
-    position: relative;
+}
 
+.search-input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 200px;
+    background-color: transparent;
 }
 
 .search-icon {
-    padding-left: 70px;
+    padding-left: 30px;
 }
 
 .headset-icon {
